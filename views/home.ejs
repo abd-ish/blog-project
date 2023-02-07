@@ -1,0 +1,9 @@
+<%- include("header") -%>
+<div class="input-zone">
+  <% for(var i=0; i<blog.length; ++i) { %>
+    <h3><%= blog[i].title %></h3>
+    <p><%= blog[i].body %></p>
+
+  <% } %>
+</div>
+<%- include ("footer") -%>

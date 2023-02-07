@@ -1,0 +1,37 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+input::placeholder {
+  size: 100%;
+}
+.heading {
+  font-size: 3rem;
+  padding-left: 2rem;
+  color: grey;
+}
+.container-fluid {
+  padding: 2.5rem 1rem 2.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar-nav li a {
+  color: grey !important;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.last {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.input-zone {
+  padding: 2rem 5rem 5rem;
+}
